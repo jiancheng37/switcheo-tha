@@ -19,8 +19,8 @@ This is a **Cryptocurrency Swap Interface** built using **React** and **Material
 
 ### **1️⃣ Clone the Repository**
 ```sh
-git clone https://github.com/your-repo/crypto-swap.git
-cd crypto-swap
+git clone https://github.com/jiancheng37/switcheo-tha
+cd switcheo-tha/src/problem2
 ```
 
 ### **2️⃣ Install Dependencies**
