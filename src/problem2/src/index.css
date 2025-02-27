@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    width: 100%;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(45deg, #030608 0%, #0b141a 40%);
+  }
+  
+
+  @font-face {
+    font-family: "Objectivity Bold";
+    src: url("/fonts/Objectivity-Bold.woff2") format("woff2"),
+         url("/fonts/Objectivity-Bold.woff") format("woff"),
+         url("/fonts/Objectivity-Bold.ttf") format("truetype");
+  }
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
