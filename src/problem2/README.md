@@ -37,25 +37,6 @@ The application will now be accessible at **`http://localhost:5173/`** (or anoth
 
 ---
 
-## **📂 Project Structure**
-```bash
-crypto-swap/
-│── src/
-│   ├── components/
-│   │   ├── TokenInput.tsx    # Token input field component
-│   │   ├── TokenSelector.tsx # Modal for selecting tokens
-│   │   ├── TokenSwap.tsx     # Main swap logic
-│   ├── types/
-│   │   ├── index.ts          # Type definitions
-│   ├── App.tsx               # Main React component
-│   ├── main.tsx              # React entry point
-│── public/
-│── package.json
-│── README.md
-```
-
----
-
 ## **🔧 Configuration**
 - Ensure you have **Node.js** installed (`v16+` recommended).
 - The app fetches price data from:
@@ -63,16 +44,4 @@ crypto-swap/
   https://interview.switcheo.com/prices.json
   ```
   Make sure your internet connection is active to retrieve the latest token prices.
-
----
-
-## **📜 License**
-This project is **open-source** and available under the **MIT License**.
-
----
-
-## **🙌 Contributing**
-Feel free to fork the repository and submit **pull requests** to improve the functionality.
-
-🚀 **Happy Swapping!**
 
